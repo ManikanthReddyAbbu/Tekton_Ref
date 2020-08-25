@@ -8,11 +8,11 @@ spec:
     name: create-webhook
   params:
   - name: GitHubOrg
-    value: ManikanthReddyAbbu
+    value: "ManikanthReddyAbbu"
   - name: GitHubUser
-    value: ManikanthReddyAbbu
+    value: "ManikanthReddyAbbu"
   - name: GitHubRepo
-    value: simple-nodejs-app
+    value: "simple-nodejs-app"
   - name: GitHubSecretName
     value: webhook-secret
   - name: GitHubAccessTokenKey
@@ -20,6 +20,6 @@ spec:
   - name: GitHubSecretStringKey
     value: secret
   - name: ExternalDomain
-    value: event-listener.event-listener.info
+    value: el-getting-started-listener.event-listener.info
   timeout: 1000s
   serviceAccountName: tekton-triggers-createwebhook

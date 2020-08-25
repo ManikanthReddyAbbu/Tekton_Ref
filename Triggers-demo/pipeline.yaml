@@ -11,6 +11,7 @@ metadata:
   name: getting-started-pipeline
   namespace: getting-started
 spec:
+  #ServiceAccountName: tekton-sa
   resources:
     - name: source-repo
       type: git
